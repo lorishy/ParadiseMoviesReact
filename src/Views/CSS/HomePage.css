@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
+body {
+    font-family: 'Titan One', cursive !important
+}
+
+.containerhp {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+@media screen and (max-width :660px) {
+    .containerhp {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+}
+
+.orange-sectionhp {
+    background-color: rgb(237, 91, 45);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grey-sectionhp {
+    background-color: rgb(33, 37, 41);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.grey-sectionhp button {
+    background-color: rgb(237, 91, 45);
+    color: white;
+}
+
+.orange-sectionhp button {
+    background-color: rgb(33, 37, 41);
+    color: white
+}
+
+.buttonhp {
+    margin-top: 1em;
+    padding: 60px;
+    font-size: 25px;
+    border: none;
+}

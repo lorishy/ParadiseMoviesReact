@@ -1,0 +1,23 @@
+.bg-sitecolor {
+    background-color: rgb(33, 37, 41);
+}
+
+.text-sitecolor {
+    color: rgb(237, 91, 45);
+
+}
+
+.btn-sitecolor {
+    background-color: rgb(237, 91, 45);
+    border: none;
+    border-radius: 25px;
+    font-size: 20px;
+    color: rgb(33, 37, 41);
+    width: 100%;
+
+}
+
+.btn-sitecolor:hover {
+    background-color: rgb(108, 117, 125) !important;
+
+}

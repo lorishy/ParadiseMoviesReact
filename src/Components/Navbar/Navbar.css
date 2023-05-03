@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
+.text-orange {
+    color: rgb(237, 91, 45) !important;
+}
+
+.font-site {
+    font-family: 'Titan One', cursive;
+}
